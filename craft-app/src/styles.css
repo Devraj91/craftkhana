@@ -1,0 +1,54 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/*@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/themes/material.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';*/
+
+ 
+.flex-column,
+.flex-row {
+    display: flex;
+    width: 100%;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.mat-dialog-container {
+    padding: 0px!important;
+}
+
+.mat-checkbox-label {
+    font-size: 14px !important;
+    color: black !important;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 100 !important;
+}
+
+.widget-header {
+    background-color: transparent!important;
+    border-bottom: 0px !important;
+    color: black!important;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.widget-title {
+    padding: 15px;
+}
+
+.datatable-row-center {
+    margin-top: 5px;
+}
+
+.mat-select-trigger {
+        min-width: 415px;
+}
